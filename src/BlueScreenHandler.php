@@ -43,7 +43,7 @@ class BlueScreenHandler extends \Monolog\Handler\AbstractProcessingHandler
 			return;
 		}
 
-		if($record instanceof \Symfony\Component\Security\Core\Exception\BadCredentialsException){
+		if ($record instanceof \Symfony\Component\Security\Core\Exception\BadCredentialsException) {
 			return;
 		}
 
